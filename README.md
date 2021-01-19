@@ -3,7 +3,7 @@ A fullstack e-commerce website that will generate a random gift box for you, tha
 
 The frontend was made using Vue.js 3.0 with full mobile compatibility as you have a hamburger menu that expand when you are on a mobile device. The code for this part of the project is located in the 'client' folder.
 
-The backend uses Node.js with POST and GET requests. It also handles connections with tokens using the jwt, JSON web token, library to make sure a user can stay connected if he reload the page within the validity period of the token. The code for this part of the project is located in the 'server' folder.
+The backend uses Node.js (with the express.js library) and handles POST and GET requests. It also handles connections with tokens using the jwt, JSON web token, library to make sure a user can stay connected if he reload the page within the validity period of the token. The code for this part of the project is located in the 'server' folder.
 
 # Landing page ( home page )
 When you arrive on the website you can see the content of your random box displayed as you can scroll down to see all of its content. On the top-right corner you have the possibility to log in your account or sign up if you don't. You can also have access to the About page to learn more about the purpose of the website.
